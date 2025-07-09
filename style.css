@@ -82,3 +82,42 @@ button {
   text-align: center;
   flex: 0 0 522px;
 }
+
+.info {
+  padding-bottom: 120px;
+}
+
+.info .title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  padding: 48px 0;
+}
+
+.info .content {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.info .card {
+  flex: 0 0 168px;
+}
+
+.info .card .img {
+  height: 168px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+  margin-bottom: 4px;
+}
+
+.info .card .text {
+  color: #555;
+  font-size: 18px;
+  text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
